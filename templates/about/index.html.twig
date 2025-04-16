@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Om kursen MVC{% endblock %}
+
+{% block body %}
+    <h1>Om kursen MVC</h1>
+
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 280px;">
+            <p>Kursen <strong>mvc</strong> hjälpen hur man bygger webbapplikationer med hjälp av ramverk. Där jag får lära mig om hur man arbeta med <strong>Model-View-Controller</strong>-arkitektur, templatemotorer som <em>Twig</em>, och strukturerad PHP-kod.</p>
+            
+            <p>Under kursen kommer jag arbeta med Symfony, ett populärt PHP-ramverk, och du lär dig att strukturera dina projekt på ett modernt och skalbart sätt.</p>
+            
+            <p>Tillsammans med Git och GitHub som versionshanteringsverktyg, så kommer arbetet blir struktuerat, samt publicera din kod online.</p>
+            
+            <p>
+                📘 <a href="https://github.com/dbwebb-se/mvc" target="_blank">Kursens GitHub-repo</a><br>
+                🙋‍♂️ <a href="https://github.com/Sandslott95" target="_blank">Min GitHub-profil</a>
+            </p>
+        </div>
+        <div style="flex: 1; min-width: 280px;">
+            <img src="{{ asset('build/images/leaf_256x256.png') }}" alt="MVC-representation" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+        </div>
+    </div>
+{% endblock %}
