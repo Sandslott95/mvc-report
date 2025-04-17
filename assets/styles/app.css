@@ -1,8 +1,8 @@
 html, body {
-    background-color: #f0f8ff;
-    font-family: 'Comic Sans MS', cursive;
+    background-color: #fff; /* vit bakgrund */
+    font-family: 'Arial', sans-serif;
     text-align: center;
-    color: #ff1493;
+    color: #8B0000; /* mörkröd text för kontrast */
     margin: 0;
     height: 100%;
     padding: 0;
@@ -11,8 +11,8 @@ html, body {
 }
 
 header {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #8B0000; /* mörkröd */
+    color: #FFD700; /* guld */
     padding: 1em;
 }
 
@@ -31,10 +31,11 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0.5em 0 0 0;
+    justify-content: center;
 }
 
 nav a {
-    color: white;
+    color: #FFD700; /* guldtext */
     text-decoration: none;
 }
 
@@ -43,17 +44,28 @@ nav a:hover {
 }
 
 footer {
-    margin-top: 2em;
-    background-color: #f4f4f4;
+    background-color: #8B0000;
+    color: #fff;
     padding: 1em;
     text-align: center;
+}
+
+nav a,
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover,
+footer a:hover {
+    text-decoration: underline;
 }
 
 .lucky-box {
     margin-top: 50px;
     padding: 30px;
-    border: 5px dashed #ff69b4;
-    background-color: #fff0f5;
+    border: 5px dashed #FFD700; /* guld */
+    background-color: #fff;
     border-radius: 20px;
     display: inline-block;
     animation: wiggle 0.5s ease-in-out infinite alternate;
