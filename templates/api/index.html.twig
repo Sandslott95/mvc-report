@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}API Sammanställning{% endblock %}
+
+{% block body %}
+    <h1>📡 JSON API - Sammanställning</h1>
+    <ul>
+        <li><a href="{{ path('quote') }}">/api/quote</a> – Returnerar ett lyckonummer i JSON-format</li>
+        {# Lägg till fler när du bygger fler API-endpoints #}
+    </ul>
+{% endblock %}
